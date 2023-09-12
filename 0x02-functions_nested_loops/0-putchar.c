@@ -1,18 +1,13 @@
 #include <stdio.h>
-#include <unistd.h>
+
 /**
- * main - Check description
- * Description: It prints the word school, followed by a new line.
- * Return: 0.
+ * main - Entry point
+ *
+ * Description: Prints "_putchar" followed by a newline character.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char word[9] = "school";
-	int i;
-
-	for (i = 0; i < 9; i++)
-		putchar(word[i]);
-	putchar('\n');
-
-	return (0);
+printf("_putchar\n");
+return (0);
 }
