@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <unistd.h>
 /**
  * main - Check description
  * Description: It prints the word school, followed by a new line.
