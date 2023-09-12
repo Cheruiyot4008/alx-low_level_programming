@@ -1,9 +1,10 @@
 #include "stdio.h"
 
 /**
- * jack_bauer - Check stdio
- * Description: function prints every minute in one day
- * Return: Nothing
+ * jack_bauer - Print every minute in one day
+ *
+ * Description: This function prints every minute in a 24-hour day
+ *              in the format HH:MM.
  */
 void jack_bauer(void)
 {
@@ -13,12 +14,12 @@ void jack_bauer(void)
 	{
 		for (M = 0; M < 60; M++)
 		{
-			 putchar((H / 10) + '0');
-			 putchar((H % 10) + '0');
-			 putchar(':');
-			 putchar((M / 10) + '0');
-			 putchar((M % 10) + '0');
-			 putchar('\n');
+			putchar((H / 10) + '0');
+			putchar((H % 10) + '0');
+			putchar(':');
+			putchar((M / 10) + '0');
+			putchar((M % 10) + '0');
+			putchar('\n');
 		}
 	}
 }
