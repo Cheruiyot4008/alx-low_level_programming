@@ -1,8 +1,9 @@
 #include "stdio.h"
 
 /**
- * times_table - Check description
- * Description: It prints 9 times table starting with 0
+ * times_table - Print the 9 times table
+ *
+ * Description: This function prints the 9 times table starting with 0.
  * Return: Nothing.
  */
 void times_table(void)
@@ -18,22 +19,22 @@ void times_table(void)
 			if ((n / 10) == 0)
 			{
 				if (j != 0)
-					 putchar(' ');
-				 putchar(n + '0');
+					putchar(' ');
+				putchar(n + '0');
 
 				if (j == 9)
 					continue;
-				 putchar(',');
-				 putchar(' ');
+				putchar(',');
+				putchar(' ');
 			}
 			else
 			{
-				 putchar((n / 10) + '0');
-				 putchar((n % 10) + '0');
+				putchar((n / 10) + '0');
+				putchar((n % 10) + '0');
 				if (j == 9)
 					continue;
-				 putchar(',');
-				 putchar(' ');
+				putchar(',');
+				putchar(' ');
 			}
 		}
 		putchar('\n');
