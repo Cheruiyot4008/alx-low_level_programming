@@ -8,11 +8,10 @@ void print_integer(int m);
  */
 void print_integer(int m)
 {
-	int i = 1000000000;
+	unsigned int i = m ;
 
-	for (; i >= 1; i /= 10)
-		if (m / i != 0)
-		{
-			_putchar((m / i) % 10 + '0');
+	if (i < m)
+	putchar 
+	{
 		}
 }
